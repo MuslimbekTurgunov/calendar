@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA26940F27BCCA0A00F00DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26940E27BCCA0A00F00DE7 /* AppDelegate.swift */; };
+		FA26941B27BCCA0C00F00DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26941927BCCA0C00F00DE7 /* LaunchScreen.storyboard */; };
+		FA26942827BCCA8700F00DE7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26942627BCCA8700F00DE7 /* MainVC.swift */; };
+		FA26942927BCCA8700F00DE7 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26942727BCCA8700F00DE7 /* MainVC.xib */; };
+		FA26942C27BCCB2100F00DE7 /* TeacherTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26942A27BCCB2100F00DE7 /* TeacherTVC.swift */; };
+		FA26942D27BCCB2100F00DE7 /* TeacherTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26942B27BCCB2100F00DE7 /* TeacherTVC.xib */; };
+		FA26943027BCCB3100F00DE7 /* CalendarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26942E27BCCB3100F00DE7 /* CalendarTVC.swift */; };
+		FA26943127BCCB3100F00DE7 /* CalendarTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26942F27BCCB3100F00DE7 /* CalendarTVC.xib */; };
+		FA26943427BCCB4600F00DE7 /* LessonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26943227BCCB4600F00DE7 /* LessonTVC.swift */; };
+		FA26943527BCCB4600F00DE7 /* LessonTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26943327BCCB4600F00DE7 /* LessonTVC.xib */; };
+		FA26943827BCCB6000F00DE7 /* TugatilganTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26943627BCCB6000F00DE7 /* TugatilganTVC.swift */; };
+		FA26943927BCCB6000F00DE7 /* TugatilganTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26943727BCCB6000F00DE7 /* TugatilganTVC.xib */; };
+		FA26943C27BCCB7200F00DE7 /* GuruxTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26943A27BCCB7200F00DE7 /* GuruxTVC.swift */; };
+		FA26943D27BCCB7200F00DE7 /* GuruxTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26943B27BCCB7200F00DE7 /* GuruxTVC.xib */; };
+		FA26944027BCCBA500F00DE7 /* CloseOpenTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26943E27BCCBA500F00DE7 /* CloseOpenTVC.swift */; };
+		FA26944127BCCBA500F00DE7 /* CloseOpenTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26943F27BCCBA500F00DE7 /* CloseOpenTVC.xib */; };
+		FA26944427BCCBC400F00DE7 /* CalendarCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26944227BCCBC400F00DE7 /* CalendarCVC.swift */; };
+		FA26944527BCCBC400F00DE7 /* CalendarCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26944327BCCBC400F00DE7 /* CalendarCVC.xib */; };
+		FA26944727BCCBCE00F00DE7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26944627BCCBCE00F00DE7 /* File.swift */; };
+		FAF7718D27BD25920065ABEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7718C27BD25920065ABEC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA26940B27BCCA0A00F00DE7 /* vazifa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vazifa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26940E27BCCA0A00F00DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA26941A27BCCA0C00F00DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA26941C27BCCA0C00F00DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA26942627BCCA8700F00DE7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FA26942727BCCA8700F00DE7 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		FA26942A27BCCB2100F00DE7 /* TeacherTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherTVC.swift; sourceTree = "<group>"; };
+		FA26942B27BCCB2100F00DE7 /* TeacherTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherTVC.xib; sourceTree = "<group>"; };
+		FA26942E27BCCB3100F00DE7 /* CalendarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTVC.swift; sourceTree = "<group>"; };
+		FA26942F27BCCB3100F00DE7 /* CalendarTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarTVC.xib; sourceTree = "<group>"; };
+		FA26943227BCCB4600F00DE7 /* LessonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTVC.swift; sourceTree = "<group>"; };
+		FA26943327BCCB4600F00DE7 /* LessonTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonTVC.xib; sourceTree = "<group>"; };
+		FA26943627BCCB6000F00DE7 /* TugatilganTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugatilganTVC.swift; sourceTree = "<group>"; };
+		FA26943727BCCB6000F00DE7 /* TugatilganTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TugatilganTVC.xib; sourceTree = "<group>"; };
+		FA26943A27BCCB7200F00DE7 /* GuruxTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuruxTVC.swift; sourceTree = "<group>"; };
+		FA26943B27BCCB7200F00DE7 /* GuruxTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuruxTVC.xib; sourceTree = "<group>"; };
+		FA26943E27BCCBA500F00DE7 /* CloseOpenTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseOpenTVC.swift; sourceTree = "<group>"; };
+		FA26943F27BCCBA500F00DE7 /* CloseOpenTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CloseOpenTVC.xib; sourceTree = "<group>"; };
+		FA26944227BCCBC400F00DE7 /* CalendarCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCVC.swift; sourceTree = "<group>"; };
+		FA26944327BCCBC400F00DE7 /* CalendarCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCVC.xib; sourceTree = "<group>"; };
+		FA26944627BCCBCE00F00DE7 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FAF7718C27BD25920065ABEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA26940827BCCA0A00F00DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA26940227BCCA0A00F00DE7 = {
+			isa = PBXGroup;
+			children = (
+				FA26940D27BCCA0A00F00DE7 /* vazifa */,
+				FA26940C27BCCA0A00F00DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA26940C27BCCA0A00F00DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA26940B27BCCA0A00F00DE7 /* vazifa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA26940D27BCCA0A00F00DE7 /* vazifa */ = {
+			isa = PBXGroup;
+			children = (
+				FA26942527BCCA6200F00DE7 /* DM */,
+				FA26942427BCCA5B00F00DE7 /* cvc */,
+				FA26942327BCCA5000F00DE7 /* tvc */,
+				FA26942227BCCA4800F00DE7 /* vc */,
+				FA26940E27BCCA0A00F00DE7 /* AppDelegate.swift */,
+				FA26941927BCCA0C00F00DE7 /* LaunchScreen.storyboard */,
+				FAF7718C27BD25920065ABEC /* Assets.xcassets */,
+				FA26941C27BCCA0C00F00DE7 /* Info.plist */,
+			);
+			path = vazifa;
+			sourceTree = "<group>";
+		};
+		FA26942227BCCA4800F00DE7 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				FA26942627BCCA8700F00DE7 /* MainVC.swift */,
+				FA26942727BCCA8700F00DE7 /* MainVC.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		FA26942327BCCA5000F00DE7 /* tvc */ = {
+			isa = PBXGroup;
+			children = (
+				FA26942A27BCCB2100F00DE7 /* TeacherTVC.swift */,
+				FA26942B27BCCB2100F00DE7 /* TeacherTVC.xib */,
+				FA26942F27BCCB3100F00DE7 /* CalendarTVC.xib */,
+				FA26942E27BCCB3100F00DE7 /* CalendarTVC.swift */,
+				FA26943227BCCB4600F00DE7 /* LessonTVC.swift */,
+				FA26943327BCCB4600F00DE7 /* LessonTVC.xib */,
+				FA26943627BCCB6000F00DE7 /* TugatilganTVC.swift */,
+				FA26943727BCCB6000F00DE7 /* TugatilganTVC.xib */,
+				FA26943A27BCCB7200F00DE7 /* GuruxTVC.swift */,
+				FA26943B27BCCB7200F00DE7 /* GuruxTVC.xib */,
+				FA26943E27BCCBA500F00DE7 /* CloseOpenTVC.swift */,
+				FA26943F27BCCBA500F00DE7 /* CloseOpenTVC.xib */,
+			);
+			path = tvc;
+			sourceTree = "<group>";
+		};
+		FA26942427BCCA5B00F00DE7 /* cvc */ = {
+			isa = PBXGroup;
+			children = (
+				FA26944227BCCBC400F00DE7 /* CalendarCVC.swift */,
+				FA26944327BCCBC400F00DE7 /* CalendarCVC.xib */,
+			);
+			path = cvc;
+			sourceTree = "<group>";
+		};
+		FA26942527BCCA6200F00DE7 /* DM */ = {
+			isa = PBXGroup;
+			children = (
+				FA26944627BCCBCE00F00DE7 /* File.swift */,
+			);
+			path = DM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA26940A27BCCA0A00F00DE7 /* vazifa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26941F27BCCA0C00F00DE7 /* Build configuration list for PBXNativeTarget "vazifa" */;
+			buildPhases = (
+				FA26940727BCCA0A00F00DE7 /* Sources */,
+				FA26940827BCCA0A00F00DE7 /* Frameworks */,
+				FA26940927BCCA0A00F00DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vazifa;
+			productName = vazifa;
+			productReference = FA26940B27BCCA0A00F00DE7 /* vazifa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA26940327BCCA0A00F00DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FA26940A27BCCA0A00F00DE7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FA26940627BCCA0A00F00DE7 /* Build configuration list for PBXProject "vazifa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA26940227BCCA0A00F00DE7;
+			productRefGroup = FA26940C27BCCA0A00F00DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA26940A27BCCA0A00F00DE7 /* vazifa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA26940927BCCA0A00F00DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26944127BCCBA500F00DE7 /* CloseOpenTVC.xib in Resources */,
+				FA26942D27BCCB2100F00DE7 /* TeacherTVC.xib in Resources */,
+				FA26942927BCCA8700F00DE7 /* MainVC.xib in Resources */,
+				FA26941B27BCCA0C00F00DE7 /* LaunchScreen.storyboard in Resources */,
+				FAF7718D27BD25920065ABEC /* Assets.xcassets in Resources */,
+				FA26943527BCCB4600F00DE7 /* LessonTVC.xib in Resources */,
+				FA26944527BCCBC400F00DE7 /* CalendarCVC.xib in Resources */,
+				FA26943D27BCCB7200F00DE7 /* GuruxTVC.xib in Resources */,
+				FA26943927BCCB6000F00DE7 /* TugatilganTVC.xib in Resources */,
+				FA26943127BCCB3100F00DE7 /* CalendarTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA26940727BCCA0A00F00DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26940F27BCCA0A00F00DE7 /* AppDelegate.swift in Sources */,
+				FA26942827BCCA8700F00DE7 /* MainVC.swift in Sources */,
+				FA26944027BCCBA500F00DE7 /* CloseOpenTVC.swift in Sources */,
+				FA26942C27BCCB2100F00DE7 /* TeacherTVC.swift in Sources */,
+				FA26943827BCCB6000F00DE7 /* TugatilganTVC.swift in Sources */,
+				FA26944727BCCBCE00F00DE7 /* File.swift in Sources */,
+				FA26944427BCCBC400F00DE7 /* CalendarCVC.swift in Sources */,
+				FA26943027BCCB3100F00DE7 /* CalendarTVC.swift in Sources */,
+				FA26943C27BCCB7200F00DE7 /* GuruxTVC.swift in Sources */,
+				FA26943427BCCB4600F00DE7 /* LessonTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA26941927BCCA0C00F00DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26941A27BCCA0C00F00DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA26941D27BCCA0C00F00DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA26941E27BCCA0C00F00DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA26942027BCCA0C00F00DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vazifa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.vazifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA26942127BCCA0C00F00DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vazifa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team.vazifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA26940627BCCA0A00F00DE7 /* Build configuration list for PBXProject "vazifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26941D27BCCA0C00F00DE7 /* Debug */,
+				FA26941E27BCCA0C00F00DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA26941F27BCCA0C00F00DE7 /* Build configuration list for PBXNativeTarget "vazifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26942027BCCA0C00F00DE7 /* Debug */,
+				FA26942127BCCA0C00F00DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA26940327BCCA0A00F00DE7 /* Project object */;
+}

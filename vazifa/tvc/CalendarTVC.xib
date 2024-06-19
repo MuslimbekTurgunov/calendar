@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="CalendarTVC" customModule="vazifa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yku-ic-wXj">
+                        <rect key="frame" x="16" y="8" width="391" height="140"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Iwc-48-5gL">
+                                <rect key="frame" x="16" y="16" width="359" height="27"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ryh-9t-vak">
+                                        <rect key="frame" x="0.0" y="2" width="211" height="23"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bugun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ll-xr-beP">
+                                                <rect key="frame" x="0.0" y="0.0" width="56.5" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                                <color key="textColor" red="0.32156866789999999" green="0.3215686083" blue="0.32156866789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pm8-3r-XMm">
+                                                <rect key="frame" x="61.5" y="2.5" width="19.5" height="18"/>
+                                                <color key="tintColor" red="0.4213241935" green="0.63646048310000003" blue="0.784334898" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-yanvar 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyy-YD-i3y">
+                                                <rect key="frame" x="86" y="0.0" width="125" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                                <color key="textColor" red="0.35294115539999998" green="0.35294115539999998" blue="0.35294115539999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="aUR-Jz-zmy">
+                                        <rect key="frame" x="304" y="2.5" width="55" height="22"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku1-lJ-dai">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="SfW-Ff-e52"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="chevron.left" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="14"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="backTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ed2-Db-nyc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUi-lc-Nf2">
+                                                <rect key="frame" x="35" y="0.0" width="20" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="XB2-E3-LzD"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="chevron.right" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="14"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nextTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l0L-fE-jsi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-vt-lt1">
+                                <rect key="frame" x="16" y="59" width="359" height="65"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="IXh-9F-e3g"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Zwx-hg-Tyz">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Iwc-48-5gL" secondAttribute="trailing" constant="16" id="JZh-bC-qi7"/>
+                            <constraint firstAttribute="trailing" secondItem="KIx-vt-lt1" secondAttribute="trailing" constant="16" id="N0E-4a-r0E"/>
+                            <constraint firstAttribute="bottom" secondItem="KIx-vt-lt1" secondAttribute="bottom" constant="16" id="ZJe-Hl-XJ8"/>
+                            <constraint firstItem="Iwc-48-5gL" firstAttribute="top" secondItem="yku-ic-wXj" secondAttribute="top" constant="16" id="ZbE-ct-kb9"/>
+                            <constraint firstAttribute="height" constant="140" id="d32-i4-FOj"/>
+                            <constraint firstItem="Iwc-48-5gL" firstAttribute="leading" secondItem="yku-ic-wXj" secondAttribute="leading" constant="16" id="jVF-wq-mhx"/>
+                            <constraint firstItem="KIx-vt-lt1" firstAttribute="leading" secondItem="yku-ic-wXj" secondAttribute="leading" constant="16" id="kia-aV-hnF"/>
+                            <constraint firstItem="KIx-vt-lt1" firstAttribute="top" secondItem="Iwc-48-5gL" secondAttribute="bottom" constant="16" id="ySW-Do-Vjp"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="yku-ic-wXj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="6o5-IQ-Nr1"/>
+                    <constraint firstAttribute="trailing" secondItem="yku-ic-wXj" secondAttribute="trailing" constant="16" id="LYh-NN-dZC"/>
+                    <constraint firstAttribute="bottom" secondItem="yku-ic-wXj" secondAttribute="bottom" constant="8" id="gZr-FH-LDU"/>
+                    <constraint firstItem="yku-ic-wXj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="mcZ-2B-SgF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bugunLbl" destination="Wyy-YD-i3y" id="vbn-rb-ygy"/>
+                <outlet property="collecView" destination="KIx-vt-lt1" id="pWM-Gr-Fqp"/>
+                <outlet property="leftBtn" destination="Ku1-lJ-dai" id="Pi3-cv-UNB"/>
+                <outlet property="rightBtn" destination="iUi-lc-Nf2" id="mdp-le-2AS"/>
+            </connections>
+            <point key="canvasLocation" x="-212" y="88"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
